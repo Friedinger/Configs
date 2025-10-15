@@ -21,7 +21,7 @@ jobs:
         if: ${{ inputs.additional-config }}
         uses: actions/checkout@v4
         with:
-          sparse-checkout: .github/labels.yml
+          sparse-checkout: ${{ inputs.additional-config }}
 
       - name: Sync labels
         uses: EndBug/label-sync@v2
