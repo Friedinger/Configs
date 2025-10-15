@@ -1,18 +1,19 @@
 name: Sync labels
 
 on:
-    workflow_call:
-      inputs:
-        additional-config:
-          description: 'Additional config file in the repo'
-          required: false
-          type: string
+  workflow_call:
+    inputs:
+      additional-config:
+        description: 'Additional config file in the repo'
+        required: false
+        type: string
 
 permissions:
   issues: write
 
 jobs:
   labels:
+    name: Sync labels
     runs-on: ubuntu-latest
 
     steps:
