@@ -2,7 +2,7 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "config:recommended",
-        ":local>renovate/base/gitmoji",
-        ":local>renovate/base/automerge-patch"
+        "github>Friedinger/Configs//renovate/base/gitmoji",
+        "github>Friedinger/Configs//renovate/base/automerge-patch"
     ]
 }

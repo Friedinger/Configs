@@ -2,9 +2,9 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "config:recommended",
-        ":local>renovate/base/pin",
-        ":local>renovate/base/gitmoji",
-        ":local>renovate/base/automerge-patch",
-        ":local>renovate/base/automerge-minor-dev-branch"
+        "github>Friedinger/Configs//renovate/base/pin",
+        "github>Friedinger/Configs//renovate/base/gitmoji",
+        "github>Friedinger/Configs//renovate/base/automerge-patch",
+        "github>Friedinger/Configs//renovate/base/automerge-minor-dev-branch"
     ]
 }
