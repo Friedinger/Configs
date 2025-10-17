@@ -5,6 +5,10 @@
         {
             "matchDepTypes": ["action"],
             "pinDigests": true
+        },
+        {
+            "matchDepTypes": ["engines", "peerDependencies"],
+            "rangeStrategy": "auto"
         }
     ]
 }
