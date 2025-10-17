@@ -1,9 +1,0 @@
-{
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": [
-        "config:recommended",
-        "github>Friedinger/Configs//renovate/base/pin.json",
-        "github>Friedinger/Configs//renovate/base/automerge-minor-dev-branch.json",
-        "github>Friedinger/Configs//renovate/base/gitmoji.json"
-    ]
-}

@@ -4,6 +4,7 @@
         "config:recommended",
         ":local>renovate/base/pin",
         ":local>renovate/base/gitmoji",
-        ":local>renovate/base/automerge-patch"
+        ":local>renovate/base/automerge-patch",
+        ":local>renovate/base/automerge-minor-dev-branch"
     ]
 }
