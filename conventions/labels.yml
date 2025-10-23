@@ -1,12 +1,15 @@
 - name: "✨ Enhancement"
   description: "New feature or request"
   color: "eeff00"
+  aliases: ["enhancement"]
 - name: "🐛 Bug"
   description: "Something isn't working as intended"
   color: "ff4545"
+  aliases: ["bug"]
 - name: "⚠️ Mistake"
   description: "Mistake that doesn't influence usability"
   color: "ff4545"
+  aliases: ["invalid"]
 - name: "🚑️ Hotfix"
   description: "Critical or emergency fix"
   color: "b60205"
@@ -16,6 +19,7 @@
 - name: "📌 Dependencies"
   description: "External library or package updates"
   color: "4da0ff"
+  aliases: ["dependencies"]
 - name: "📝 Documentation"
   description: "Improvements or additions to documentation"
   color: "005999"
