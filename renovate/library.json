@@ -3,6 +3,7 @@
     "extends": [
         "config:recommended",
         "github>Friedinger/Configs//renovate/base/gitmoji",
-        "github>Friedinger/Configs//renovate/base/automerge-patch"
+        "github>Friedinger/Configs//renovate/base/automerge-patch",
+        "github>Friedinger/Configs//renovate/base/lockfile-automerge"
     ]
 }

@@ -5,6 +5,7 @@
         "github>Friedinger/Configs//renovate/base/pin",
         "github>Friedinger/Configs//renovate/base/gitmoji",
         "github>Friedinger/Configs//renovate/base/automerge-patch",
-        "github>Friedinger/Configs//renovate/base/automerge-minor-dev-branch"
+        "github>Friedinger/Configs//renovate/base/automerge-minor-dev-branch",
+        "github>Friedinger/Configs//renovate/base/lockfile-automerge"
     ]
 }
